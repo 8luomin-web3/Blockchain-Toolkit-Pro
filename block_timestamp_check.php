@@ -16,6 +16,7 @@ function blockTimestampCheck(int $timestamp): array {
         ];
     }
 
+
     if ($timestamp > $max_time) {
         return [
             'valid' => false,

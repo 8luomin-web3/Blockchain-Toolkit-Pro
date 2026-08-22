@@ -36,4 +36,3 @@ public class BlockSerializer {
         String json = serialize(block);
         System.out.println("序列化结果：" + json);
     }
-}
